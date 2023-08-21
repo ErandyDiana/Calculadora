@@ -1,0 +1,114 @@
+
+body {
+    background: linear-gradient(50deg, #fcc175, #ba2fe4, #fcc175 );
+}
+
+
+.calculadora{
+    border-radius: 2%;
+    width: auto;
+    max-width: 330px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    border-radius: 1rem;
+    background: linear-gradient(145deg, #ff9900, #b130fc, #ffae00);
+    box-shadow: 0px 0px 20px 2px #00ffb3;
+    
+}
+
+input#cuenta.box, input#resultado.box { 
+    font-size: 20px;
+    width: 73%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 5px;
+    color: rgba(22, 21, 21);
+    border-radius: 1rem 1rem 0rem 0rem;
+    height: 50px;
+    padding: 1.3rem;
+    font-weight: bold;
+}
+
+
+input#c.button, input#uno.button, input#cuatro.button, input#siete.button, input#boton.button {
+    margin-left: 35px;
+
+} 
+
+input#cuenta.box {
+    border-bottom: none;
+    margin: 0;
+    padding-bottom: 0;
+    margin-left:35px;
+}
+
+input#resultado.box {
+    border-top: none;
+    border-radius: 0rem 0rem 1rem 1rem;
+    padding-top: 0;
+    color: #41fc6a;
+    font-size: 1.8rem;
+    margin-left: 35px;
+}
+
+input#boton.button {
+    margin-bottom: 2rem;
+}
+
+input.button{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer; 
+    border: none;
+    height: 50px;
+    border-radius: 1rem;
+    width: 60.5px;
+}   
+
+input.button:hover {
+    background: linear-gradient(145deg, #e069f8, #a503f0);
+box-shadow:  6px 6px 12px #00ffb3,
+             -6px -6px 12px #430f50;
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             
+}
+
+input.button:active {
+    background: linear-gradient(145deg, #7afa60, #a9f8c7); /* el color del boton al presionarlo */
+box-shadow:  20px 20px 83px #03eef7,  /* sombra al presionar el boton */
+             -20px -20px 83px #00ffaa; /* sombra al presionar el boton */
+             
+}
+
+.button{
+    margin: 1px;
+    width: 60px;
+    background-color: transparent;
+}
+
+#boton {
+    width: 125px;
+}
+
+#borrarNumero {
+    width: 125px;
+    color: #00ff88;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input#c.button, input#s.button {
+    color: #00ff88; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input#result.button {
+    color: #00ff88;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
